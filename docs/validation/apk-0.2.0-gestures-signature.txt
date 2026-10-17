@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): false
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=Tasks Local Build
+Signer #1 certificate SHA-256 digest: 77584964a8e71eff92f8160e6898ae9c68f6ea72f0326faccd04467ad558d3d7
+Signer #1 certificate SHA-1 digest: b1107c0909b937294e4bf7aa8445e0b0a3038d0f
+Signer #1 certificate MD5 digest: 7cfa73cc5baf8d6e4d2fa29335722c3a
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: 3dda3345ff4d42db9aa77198b013f30726d64b849f8699a7d6d9a9a7dc971229
+Signer #1 public key SHA-1 digest: f9132dc8b91b31d09645c9244224371e79350244
+Signer #1 public key MD5 digest: 602d3601120bef521c0d136474524bb4

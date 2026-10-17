@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-17",
+  "verification": "Release build from an extracted public source ZIP without local signing configuration",
+  "command": "gradlew.bat :app:assembleRelease --offline --no-daemon --no-configuration-cache",
+  "result": "BUILD SUCCESSFUL",
+  "environment": {
+    "os": "Windows",
+    "jdk": "21.0.12.1+1",
+    "gradle": "9.5.0",
+    "agp": "9.3.0",
+    "androidPlatform": "37.0",
+    "buildTools": "36.0.0",
+    "dependencies": "Existing local Gradle dependency cache"
+  },
+  "privateSigningFilesPresent": false,
+  "sourceComparison": {
+    "matchesPreviouslyValidatedPolishedExport": true,
+    "fileCount": 82,
+    "inventorySha256": "7c6b6fda153a2bba0bb51f3a94ecccf8df2308120bc9747831a2276676b29ccb"
+  },
+  "apk": {
+    "file": "app/build/outputs/apk/release/app-release-unsigned.apk",
+    "sizeBytes": 3343111,
+    "sha256": "9db756389b26a42ee9e3a5af83deb457b4ed316ffa583e37ff5919ae3cb87601",
+    "signed": false,
+    "applicationId": "dev.quiettasks",
+    "versionName": "0.2.0",
+    "versionCode": 2,
+    "minSdk": 28,
+    "targetSdk": 37
+  },
+  "limits": [
+    "F-Droid Linux build environment, metadata tooling, and scanner have not been executed.",
+    "GitHub-hosted CI has not been executed.",
+    "No public source repository or release commit exists yet.",
+    "Reproducibility against the developer-signed APK has not been established."
+  ]
+}

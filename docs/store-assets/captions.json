@@ -1,0 +1,150 @@
+[
+  {
+    "id": 1,
+    "name": "Overview",
+    "palette": "mint",
+    "kicker": "THE BIG PICTURE",
+    "title": [
+      "Everything,",
+      "in one view."
+    ],
+    "description": [
+      "All your lists, from undated plans",
+      "to Today, Tomorrow, and beyond."
+    ],
+    "footer": "Offline first. No account required.",
+    "sources": [
+      "home-light.png"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Subtasks",
+    "palette": "forest",
+    "kicker": "ONE STEP AT A TIME",
+    "title": [
+      "Big plans.",
+      "Smaller steps."
+    ],
+    "description": [
+      "Add subtasks inline. Keep completed",
+      "steps in sight as you work through a task."
+    ],
+    "footer": "Subtasks · Tags · Priorities",
+    "sources": [
+      "subtasks-inline-dark.png"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Repeat schedules",
+    "palette": "cream",
+    "kicker": "MAKE ROOM FOR ROUTINE",
+    "title": [
+      "Repeat at",
+      "your rhythm."
+    ],
+    "description": [
+      "Choose days, intervals, and when to stop.",
+      "Daily, weekly, or a schedule of your own."
+    ],
+    "footer": "Start dates · End dates · Repeat limits",
+    "sources": [
+      "repeat-weekly-dark.png"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Custom tabs",
+    "palette": "charcoal",
+    "kicker": "MAKE IT PERSONAL",
+    "title": [
+      "A little more",
+      "you."
+    ],
+    "description": [
+      "Give every list its own color and symbol.",
+      "An icon, an emoji, a little personality."
+    ],
+    "footer": "Custom colors · Icons · Emoji",
+    "sources": [
+      "tab-customization-dark.png"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "My order",
+    "palette": "mint",
+    "kicker": "PUT FIRST THINGS FIRST",
+    "title": [
+      "Your tasks.",
+      "Your order."
+    ],
+    "description": [
+      "Choose My order, then hold and drag.",
+      "Move a task and its subtasks together."
+    ],
+    "footer": "My order · Date · Priority · Star · Title",
+    "sources": [
+      "home-custom-dark.png",
+      "family-lift-held-dark.png"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Three themes",
+    "palette": "cream",
+    "kicker": "A COMFORTABLE VIEW",
+    "title": [
+      "Light. Dark.",
+      "Just right."
+    ],
+    "description": [
+      "Choose light, shaded dark, or AMOLED.",
+      "Let wallpaper colors add your own touch."
+    ],
+    "footer": "Three themes. One familiar layout.",
+    "sources": [
+      "home-light.png",
+      "home-dark.png",
+      "home-amoled.png"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Home-screen widget",
+    "palette": "forest",
+    "kicker": "RIGHT WHERE YOU NEED IT",
+    "title": [
+      "A little widget.",
+      "A lot done."
+    ],
+    "description": [
+      "View, add, and complete from home.",
+      "Switch lists inside the widget."
+    ],
+    "footer": "All · Starred · Your lists · Scroll to see more",
+    "sources": [
+      "store-widget-light.png",
+      "store-widget-picker-dark.png"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "CalDAV sync controls",
+    "palette": "charcoal",
+    "kicker": "STAY IN CONTROL",
+    "title": [
+      "Sync on",
+      "your terms."
+    ],
+    "description": [
+      "Use CalDAV while you use the app,",
+      "only when charging, or manually."
+    ],
+    "footer": "Optional CalDAV · Your choice of server",
+    "sources": [
+      "settings-footer-dark.png"
+    ]
+  }
+]

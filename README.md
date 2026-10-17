@@ -2,6 +2,8 @@
 
 A private task manager for Android, built with Kotlin and Jetpack Compose. Organize tasks offline and synchronize with a CalDAV server of your choice.
 
+[Source repository](https://github.com/Shaaaafin/Tasks) · [Report an issue](https://github.com/Shaaaafin/Tasks/issues)
+
 **Apache 2.0 · Android 9 or later · Optional CalDAV · No ads or analytics**
 
 ## Features

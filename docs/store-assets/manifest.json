@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-17",
+  "applicationVersion": "0.2.0",
+  "versionCode": 2,
+  "source": "Native Android UI via Robolectric API 35 with fictitious sample data",
+  "presentation": "SVG compositions rendered with sharp; embedded app UI is unchanged",
+  "physicalDeviceCapture": false,
+  "widgetFixture": "captureStoreWidgetSamples: passed",
+  "visuallyReviewed": true,
+  "files": [
+    {
+      "file": "fastlane/metadata/android/en-US/images/phoneScreenshots/1.png",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "sizeBytes": 135306,
+      "sha256": "c73e439022df1706d86ecb940c6387c06fb4836c541ea30cd3b9590e43f3c791"
+    },
+    {
+      "file": "fastlane/metadata/android/en-US/images/phoneScreenshots/2.png",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "sizeBytes": 114734,
+      "sha256": "352c3a03ed434e0a2cc5061b59edbee35b51402c57d7e187c1976ac0509290ce"
+    },
+    {
+      "file": "fastlane/metadata/android/en-US/images/phoneScreenshots/3.png",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "sizeBytes": 134179,
+      "sha256": "fd8c95ff77518cb84d69f0b908762c8eae25aeb848855465970a076aa82a23ef"
+    },
+    {
+      "file": "fastlane/metadata/android/en-US/images/phoneScreenshots/4.png",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "sizeBytes": 126929,
+      "sha256": "e2e57ee4f7a41cf6e1839036962b2419527d168253d30bb13b63bf4c8c14c251"
+    },
+    {
+      "file": "fastlane/metadata/android/en-US/images/phoneScreenshots/5.png",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "sizeBytes": 183229,
+      "sha256": "11440bc218b75e35cddeebfaf77f9434ad45e4cdeb7012cb09ca48e5bb095ff1"
+    },
+    {
+      "file": "fastlane/metadata/android/en-US/images/phoneScreenshots/6.png",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "sizeBytes": 182818,
+      "sha256": "87b924fb087d20d9827b320cd37cb6ad850b4b51f4d9b6ebc2d3a5d119da5ee1"
+    },
+    {
+      "file": "fastlane/metadata/android/en-US/images/phoneScreenshots/7.png",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "sizeBytes": 140688,
+      "sha256": "5df6916a6ce373ff29d9433b5fbea80d243fb0e4461b272daf80a2da4d5f009f"
+    },
+    {
+      "file": "fastlane/metadata/android/en-US/images/phoneScreenshots/8.png",
+      "width": 1080,
+      "height": 1920,
+      "mode": "RGB",
+      "sizeBytes": 153625,
+      "sha256": "1dded22bd4baa09d7f6b91e2a3a6b7e436c39cf2ae25c122b854dbd3c0fd5b71"
+    },
+    {
+      "file": "fastlane/metadata/android/en-US/images/featureGraphic.png",
+      "width": 1024,
+      "height": 500,
+      "mode": "RGB",
+      "sizeBytes": 51348,
+      "sha256": "3154885fe9ae4feac9cb2ea8fe29a3daa440bf99e4b4b85085e76b5c994f5232"
+    },
+    {
+      "file": "docs/store-assets/overview.png",
+      "width": 1800,
+      "height": 1800,
+      "mode": "RGB",
+      "sizeBytes": 435080,
+      "sha256": "103a61dbef2eb876fbc5839d7b64d9145106da3d159b8fe7d47dca1eafbe7026"
+    }
+  ]
+}

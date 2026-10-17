@@ -1,0 +1,68 @@
+[
+  {
+    "suite": "dev.quiettasks.data.TaskHierarchyTest",
+    "tests": 2,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "suite": "dev.quiettasks.data.TaskStoreTest",
+    "tests": 6,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "suite": "dev.quiettasks.reminders.RemindersTest",
+    "tests": 1,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "suite": "dev.quiettasks.sync.DavClientTest",
+    "tests": 8,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "suite": "dev.quiettasks.sync.ICalendarTest",
+    "tests": 8,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "suite": "dev.quiettasks.sync.SyncEngineTest",
+    "tests": 4,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "suite": "dev.quiettasks.sync.SyncPolicyTest",
+    "tests": 3,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "suite": "dev.quiettasks.sync.SyncSchedulerTest",
+    "tests": 1,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "suite": "dev.quiettasks.ui.TaskInteractionTest",
+    "tests": 1,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "suite": "dev.quiettasks.ui.TasksUiTest",
+    "tests": 3,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "suite": "dev.quiettasks.widget.TasksWidgetTest",
+    "tests": 1,
+    "failures": 0,
+    "errors": 0
+  }
+]

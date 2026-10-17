@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-17",
+  "versionName": "0.2.0",
+  "versionCode": 2,
+  "databaseSchema": 3,
+  "command": "testDebugUnitTest lintDebug assembleRelease --no-daemon --no-configuration-cache",
+  "result": "BUILD SUCCESSFUL",
+  "counts": {
+    "tests": 74,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "suites": [
+    {
+      "name": "dev.quiettasks.data.SettingsStoreTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.data.TaskHierarchyTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.data.TaskStoreTest",
+      "tests": 18,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.data.TaskSummaryTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.reminders.RemindersTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.sync.DavClientTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.sync.ICalendarTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.sync.SyncEngineTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.sync.SyncPolicyTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.sync.SyncSchedulerTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.ui.LauncherIconTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.ui.TagsUiTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.ui.TaskGesturesTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.ui.TaskInteractionTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.ui.TasksUiTest",
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.widget.TasksWidgetTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "lint": {
+    "Fatal": 0,
+    "Error": 0,
+    "Warning": 43,
+    "Information": 0
+  },
+  "apk": {
+    "filename": "Tasks-0.2.0-subtasks.apk",
+    "bytes": 3350207,
+    "sha256": "19c22a93fe5ecd13647823ede45260d2ca90c78b7f31b6bb47ba49c296ed3479",
+    "certificateSha256": "77584964a8e71eff92f8160e6898ae9c68f6ea72f0326faccd04467ad558d3d7"
+  },
+  "environment": "Robolectric API 35 with native graphics; physical Android 17/CalyxOS unverified",
+  "checks": [
+    "Inline subtask entry with return-arrow Add and keyboard Next",
+    "Draft parent and child restoration",
+    "Checked row strikethrough and in-place display in app and widget",
+    "Parent completion on the final checked child, and explicit parent completion",
+    "Recurring family cloning with unchecked children and count limits",
+    "Atomic family saves, removed-child tombstones, unchanged-child revisions, and checked-sibling ordering",
+    "Existing tab synchronization, lift, archive, migration, reminders, and DAV regressions",
+    "Settings footer with heart and name on separate lines"
+  ]
+}

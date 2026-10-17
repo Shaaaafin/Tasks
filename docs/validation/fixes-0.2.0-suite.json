@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-17",
+  "versionName": "0.2.0",
+  "versionCode": 2,
+  "databaseSchema": 3,
+  "command": "testDebugUnitTest lintDebug assembleRelease --no-daemon --no-configuration-cache",
+  "result": "BUILD SUCCESSFUL",
+  "counts": {
+    "tests": 59,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "suites": [
+    {
+      "name": "dev.quiettasks.data.SettingsStoreTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.data.TaskHierarchyTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.data.TaskStoreTest",
+      "tests": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.data.TaskSummaryTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.reminders.RemindersTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.sync.DavClientTest",
+      "tests": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.sync.ICalendarTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.sync.SyncEngineTest",
+      "tests": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.sync.SyncPolicyTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.sync.SyncSchedulerTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.ui.LauncherIconTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.ui.TagsUiTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.ui.TaskInteractionTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.ui.TasksUiTest",
+      "tests": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "name": "dev.quiettasks.widget.TasksWidgetTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "lint": {
+    "Error": 0,
+    "Fatal": 0,
+    "Warning": 51,
+    "Information": 0
+  },
+  "apk": {
+    "filename": "Tasks-0.2.0-fixed.apk",
+    "bytes": 3300579,
+    "sha256": "57c399ffd6e5bf8036d46dfd211a28c438948b8c1cd3f10a4c01ff06aca91483",
+    "certificateSha256": "77584964a8e71eff92f8160e6898ae9c68f6ea72f0326faccd04467ad558d3d7"
+  },
+  "environment": "Robolectric API 35 with native graphics; compiled and targeted API 37; no physical Android 17/CalyxOS device validation"
+}

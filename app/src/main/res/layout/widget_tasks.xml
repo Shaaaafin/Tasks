@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="12dp" android:background="@drawable/widget_background">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="44dp" android:gravity="center_vertical" android:orientation="horizontal">
+        <TextView android:id="@+id/widget_list" android:layout_width="0dp" android:layout_weight="1" android:layout_height="match_parent"
+            android:gravity="center_vertical" android:paddingStart="4dp" android:paddingEnd="8dp" android:textSize="16sp" android:fontFamily="sans-serif-medium" android:maxLines="1" android:ellipsize="end" android:contentDescription="Choose widget list" />
+        <ImageButton android:id="@+id/widget_add" android:layout_width="52dp" android:layout_height="36dp" android:padding="7dp" android:src="@drawable/ic_add" android:background="@drawable/widget_add_background" android:contentDescription="Create task" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <ListView android:id="@+id/widget_rows" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@android:color/transparent" android:dividerHeight="0dp" android:scrollbars="vertical" android:overScrollMode="never" android:clipToPadding="false" />
+        <TextView android:id="@+id/widget_empty" android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center" android:padding="16dp" android:text="No tasks yet" android:textSize="14sp" />
+    </FrameLayout>
+</LinearLayout>

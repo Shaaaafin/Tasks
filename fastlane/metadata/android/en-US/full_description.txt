@@ -1,0 +1,13 @@
+Tasks is a native Android task manager that works offline and can synchronize with a CalDAV server of your choice. No application account or Google Play Services is required.
+
+Organize work and personal tasks with lists, subtasks, notes, stars, tags, and priorities. See every list in an undated-first chronological summary, or select My order, hold a task, and drag it into your preferred arrangement.
+
+Create daily, weekly, monthly, yearly, and custom repeating tasks with start dates, times, intervals, weekdays, and end-date or occurrence limits. Set separate reminders and deadlines, and use the home-screen widget to view, add, open, and complete tasks. Resize the widget and scroll through the full collection, or switch between All, Starred, and individual lists within it.
+
+Choose light, shaded dark, AMOLED pure black, or system appearance, optional wallpaper colors, and individual tab colors, icons, or emoji. Hide All and Starred independently. Choose whether long-press reorders tasks or opens a menu at your finger. Add and edit subtasks inline. Checked subtasks stay crossed out until the parent is completed; checking every subtask completes the family. Repeating tasks create fresh unchecked subtasks. Leading tabs stay left-aligned; later selections center in sync with page swipes. Task reordering uses a soft lift and release transition. Restore archived tasks from Settings.
+
+Synchronization is optional. Select synchronization while using the app, only while charging, or manually, with an optional Wi-Fi restriction. There are no ads, analytics, or periodic widget polling.
+
+Task tags, priorities, recurrence, archive state, and manual order synchronize through CalDAV. Archive state is an app-specific property that other clients may ignore. Tab appearance and sort preferences stay on each device. HTTPS protects synchronization in transit; task content is not end-to-end encrypted by this application.
+
+The application is under active development. Physical Android 17 and CalyxOS testing, real-server interoperability, and measured battery validation are ongoing.

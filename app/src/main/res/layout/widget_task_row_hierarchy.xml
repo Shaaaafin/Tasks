@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/widget_task_row" android:layout_width="match_parent" android:layout_height="52dp" android:gravity="center_vertical" android:orientation="horizontal">
+    <ImageView android:id="@+id/widget_subtask_branch" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/ic_subtask_branch" android:visibility="gone" android:importantForAccessibility="no" />
+    <ImageButton android:id="@+id/widget_check" android:layout_width="40dp" android:layout_height="48dp" android:padding="9dp" android:src="@drawable/ic_circle" android:background="@android:color/transparent" android:contentDescription="Complete task" />
+    <LinearLayout android:id="@+id/widget_task_text" android:layout_width="0dp" android:layout_weight="1" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center_vertical" android:paddingStart="8dp" android:paddingEnd="8dp">
+        <TextView android:id="@+id/widget_task_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="16sp" android:maxLines="1" android:ellipsize="end" />
+        <TextView android:id="@+id/widget_task_date" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="12sp" android:maxLines="1" android:ellipsize="end" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,4 @@
+storeFile=.tools/release.keystore
+keyAlias=release
+storePassword=REPLACE_LOCALLY
+keyPassword=REPLACE_LOCALLY

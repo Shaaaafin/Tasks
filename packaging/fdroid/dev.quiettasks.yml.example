@@ -1,0 +1,28 @@
+Categories:
+  - Time
+License: Apache-2.0
+AuthorName: Ahnaf Hasan Shafin
+SourceCode: https://github.com/Shaaaafin/Tasks
+IssueTracker: https://github.com/Shaaaafin/Tasks/issues
+
+AutoName: Tasks
+
+RepoType: git
+Repo: https://github.com/Shaaaafin/Tasks.git
+
+Builds:
+  - versionName: 0.2.0
+    versionCode: 2
+    disable: Pin the release commit and verify the F-Droid build environment
+    commit: RELEASE_COMMIT_SHA
+    subdir: app
+    gradle:
+      - yes
+    prebuild:
+      - chmod +x ../gradlew
+
+AutoUpdateMode: None
+UpdateCheckMode: None
+
+CurrentVersion: 0.2.0
+CurrentVersionCode: 2

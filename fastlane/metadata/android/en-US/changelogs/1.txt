@@ -1,0 +1,1 @@
+Initial native Android release with offline tasks, lists, subtasks, reminders, deadlines, recurrence, optional HTTPS CalDAV synchronization, light and dark themes, and a home-screen widget.

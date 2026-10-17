@@ -1,0 +1,14 @@
+[
+  {
+    "suite": "dev.quiettasks.ui.TaskInteractionTest",
+    "tests": 1,
+    "failures": 0,
+    "errors": 0
+  },
+  {
+    "suite": "dev.quiettasks.ui.TasksUiTest",
+    "tests": 3,
+    "failures": 0,
+    "errors": 0
+  }
+]
