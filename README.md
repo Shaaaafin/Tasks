@@ -32,6 +32,8 @@ The [full eight-card gallery](docs/store-assets/overview.png) uses native app re
 
 ## Installation
 
+An independent [F-Droid-compatible repository](https://Shaaaafin.github.io/Tasks/) is available through GitHub Pages. Add it with the repository address and pinned fingerprint described in [REPOSITORY.md](docs/REPOSITORY.md). It uses the same developer-signed APK as GitHub Releases.
+
 Download an APK from this repository's Releases page when a release is available. Install updates over the existing application to retain its data. There is currently no published F-Droid listing.
 
 Android 9 (API 28) or later is required. The current build targets Android 17 (API 37). Physical Android 17 and CalyxOS compatibility testing is still in progress.

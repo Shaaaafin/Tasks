@@ -1,0 +1,11 @@
+{
+  "githubRepository": "Shaaaafin/Tasks",
+  "applicationId": "dev.quiettasks",
+  "repoName": "Tasks by Ahnaf Hasan Shafin",
+  "repoDescription": "The author-maintained Tasks app repository. Offline task management with optional CalDAV synchronization.",
+  "repoUrl": "https://Shaaaafin.github.io/Tasks/fdroid/repo",
+  "repoKeyAlias": "tasks-repo",
+  "repoCertificateSha256": "88D8C8D601561E730FEE320964AED6CA56E71EC8A84FA2446ABE11F3183A1652",
+  "apkCertificateSha256": "77584964a8e71eff92f8160e6898ae9c68f6ea72f0326faccd04467ad558d3d7",
+  "fdroidserverVersion": "2.4.5"
+}

@@ -1,5 +1,7 @@
 # Publishing on F-Droid
 
+For the independent repository hosted on GitHub Pages, follow [REPOSITORY.md](REPOSITORY.md). The sections below describe the separate official f-droid.org inclusion process. A self-managed feed does not imply inclusion in that catalog.
+
 No personal server is required for inclusion in the official F-Droid repository. Publish the source in a public Git repository; F-Droid reviews the application, builds it, and hosts accepted releases. Task synchronization remains optional and uses each user's CalDAV account.
 
 The source currently identifies the app as Tasks, package `dev.quiettasks`, version `0.2.0`, version code `2`. It includes the latest scrolling, press feedback, widget hierarchy, and shaded-theme changes. The application has not been submitted to or accepted by F-Droid.

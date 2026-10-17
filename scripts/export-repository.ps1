@@ -33,6 +33,7 @@ $files = @($folders | ForEach-Object { Get-ChildItem -LiteralPath (Join-Path $re
 
 foreach ($file in $files) {
     $relative = $file.FullName.Substring($repositoryRoot.Length + 1).Replace('\', '/')
+    if ($relative -match '(^|/)__pycache__/|\.pyc$') { continue }
     if ($relative -match $referenceImagePattern) { continue }
     if ($relative -match $privatePattern) { throw "Private or generated file rejected: $relative" }
     $destination = Join-Path $exportRoot $relative
