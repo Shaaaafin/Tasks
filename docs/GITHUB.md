@@ -40,7 +40,7 @@ Configure a Git author identity if Git requests one. Review the staged files bef
 
 ## Repository settings
 
-The included Android workflow runs on pushes, pull requests, and manual dispatch. It uses JDK 21 and installs the required Android platform. Its first execution on GitHub still needs to be reviewed; local verification does not execute GitHub-hosted CI.
+The included Android workflow runs on pushes, pull requests, and manual dispatch. It uses JDK 21, installs the required Android platform, builds debug and unsigned release APKs, and runs the unit tests and Android lint. Review the GitHub run for the intended release commit; local verification alone does not establish that GitHub-hosted CI has passed.
 
 Enable private vulnerability reporting if it is appropriate for the repository. The contribution, security, and issue-template documents provide the corresponding reporting guidance.
 

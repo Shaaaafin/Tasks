@@ -38,4 +38,4 @@ jobs:
         shell: bash
         run: |
           chmod +x gradlew
-          ./gradlew :app:assembleDebug :app:testDebugUnitTest :app:lintDebug --no-daemon --no-configuration-cache --stacktrace
+          ./gradlew :app:assembleDebug :app:assembleRelease :app:testDebugUnitTest :app:lintDebug --no-daemon --no-configuration-cache --stacktrace
